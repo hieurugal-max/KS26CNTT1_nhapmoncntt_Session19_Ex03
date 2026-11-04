@@ -1,0 +1,32 @@
+Bài 3 : Khắc phục sự cố rò rỉ thông tin đăng nhập
+1. Báo cáo phân tích (IPO)
+Input (Đầu vào):
+- Máy tính có dấu hiệu nhiễm mã độc Infostealer
+- Tài khoản Facebook, Gmail liên tục bị mất quyền kiểm soát
+- Thông tin đăng nhập có nguy cơ bị đánh cắp
+Process (Xử lý):
+Thực hiện 4 bước cấp cứu:
+- Bước 1: Tắt Wi-Fi hoặc rút dây mạng để ngăn mã độc tiếp tục gửi dữ liệu ra ngoài
+- Bước 2: Dùng một thiết bị khác an toàn để đổi mật khẩu Gmail, Facebook, GitHub và các tài khoản quan trọng
+- Bước 3: Đăng xuất các thiết bị lạ, xóa token đáng ngờ và kiểm tra các ứng dụng đang được cấp quyền truy cập
+- Bước 4: Dùng Windows Security quét toàn bộ máy, cách ly mã độc và cài đặt lại Windows nếu cần
+Output (Đầu ra):
+- Máy tính đã được kiểm tra và xử lý mã độc
+- Mật khẩu các tài khoản đã được thay đổi
+- Token và phiên đăng nhập đáng ngờ đã bị thu hồi
+- Hạn chế nguy cơ tiếp tục bị đánh cắp thông tin
+2. Triển khai
+ Đổi mật khẩu từ thiết bị khác:
+- Bước 1: Sử dụng điện thoại hoặc máy tính sạch để đăng nhập tài khoản
+- Bước 2: Vào phần Security (Bảo mật) của tài khoản
+- Bước 3: Chọn Change Password (Đổi mật khẩu)
+- Bước 4: Đặt mật khẩu mới, không sử dụng lại mật khẩu cũ
+- Bước 5: Đăng xuất các thiết bị lạ và bật xác thực hai yếu tố 
+ Revoke Token trên GitHub
+- Bước 1: Truy cập https://github.com và đăng nhập bằng thiết bị an toàn
+- Bước 2: Nhấn ảnh đại diện, chọn Settings
+- Bước 3: Chọn Developer settings
+- Bước 4: Chọn Personal access tokens
+- Bước 5: Kiểm tra mục Fine-grained tokens và Tokens (classic)
+- Bước 6: Tìm token không nhận ra hoặc nghi bị lộ, nhấn Delete hoặc Revoke để thu hồi
+- Bước 7: Nếu cần sử dụng tiếp, tạo token mới với quyền truy cập phù hợp
