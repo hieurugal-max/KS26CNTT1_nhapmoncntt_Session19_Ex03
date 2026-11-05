@@ -2,7 +2,6 @@ Bài 3 : Khắc phục sự cố rò rỉ thông tin đăng nhập
 1. Báo cáo phân tích (IPO)
 Input (Đầu vào):
 - Máy tính có dấu hiệu nhiễm mã độc Infostealer
-- Tài khoản Facebook, Gmail liên tục bị mất quyền kiểm soát
 - Thông tin đăng nhập có nguy cơ bị đánh cắp
 Process (Xử lý):
 Thực hiện 4 bước cấp cứu:
